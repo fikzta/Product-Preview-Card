@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cream;
+}
+
+.container {
+    width: 1440px;
+}
+
+.left-side-product {
+    width: 50%;
+}
+
