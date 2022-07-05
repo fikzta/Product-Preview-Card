@@ -11,28 +11,38 @@ body {
 
 .container {
     display: flex;
-    width: 100%;
+    width: 80%;
     border: 5px solid white;
     border-radius: 10px;
-    /* padding: 0%; */
+    padding: 0%;
     background-color: white;
+    overflow: hidden;
 }
 
 .product-image {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* object-fit: cover; */
 }
 
-img {
-    border: 2px solid black;
+.perfume-picture {
+    /* border: 2px solid black; */
     width: 100%;
     /* object-fit: cover; */
+    /* height: 110%; */
+    transform: scale(1.2);
+    margin: 0%;
+    padding: 0%;
+    /* overflow: auto; */
+    /* position: absolute; */
+    
 }
 
 .product-details {
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 3em;
-    padding-right: 3em;
 }
 
 .product {
@@ -41,12 +51,12 @@ img {
     letter-spacing: 5px;
     color: #6C7289;
     padding-top: 2em;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .perfume-name {
     font-family: 'Fraunces', serif;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     line-height: 32px;
 
 } 
@@ -55,7 +65,7 @@ img {
     font-family: 'Montserrat', sans-serif;
     color: #6C7289;
     line-height: 23px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .product-discounted-price {
@@ -63,7 +73,7 @@ img {
     font-family: 'Fraunces', serif;
     color: #3d8168;
     font-size: 32px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .product-original-price {
@@ -73,18 +83,41 @@ img {
     font-size: 13px;
     text-decoration: line-through;
     padding-left: 2em;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
-button {
+.button-parent-container {
     display: flex;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.button-container {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
     flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
     background-color: #3d8168;
     border-radius: 8px;
-    padding: 1.5em 5em 1.5em 5em;
+    border-color: white;
+    box-shadow: none;
+    padding: 1em 1.5em 1em 0em;
 }
 
-span {
-    
+.cart-icon {
+    width: 15px;
+    margin-left: 6.5em;
 }
+
+.button-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFF;
+    margin-left: 1em;
+}
+
+
 
