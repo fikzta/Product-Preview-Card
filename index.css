@@ -16,7 +16,7 @@ body {
     display: flex;
     width: 100%;
     max-width: 700px;
-    border: 5px solid white;
+    /* border: 5px solid black; All along this border was preventing the img to fully fit around the container.  */
     border-radius: 10px;
     padding: 0;
     margin: 0 auto;
