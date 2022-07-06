@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repository]https://github.com/fikzta/Product-Preview-Card)
+- Live Site URL: [Github Page](https://fikzta.github.io/Product-Preview-Card/)
 
 ## My process
 
@@ -86,7 +84,7 @@ To see how you can add code snippets, see below:
 .container {
     display: flex;
     width: 80%;
-    border: 5px solid white;
+    /* border: 5px solid white; It turns out this border was holding back the product img to completely fill around the border using object fit cover so i just had to turn it off. */
     border-radius: 10px;
     padding: 0%;
     background-color: white;
